@@ -1,0 +1,32 @@
+{
+  "name": "computer-use-mcp",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Computer Use 判定工具包 MCP 服务器（零依赖 stdio）：成本、级联判决、样本量、注意力节省率与 run 校验，可接入任意 MCP 客户端。",
+  "main": "server.js",
+  "bin": {
+    "computer-use-mcp": "server.js"
+  },
+  "files": [
+    "server.js",
+    "tools/",
+    "lib/",
+    "mcp.example.json",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/protocol.test.js tests/tools.test.js tests/fast.test.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "computer-use",
+    "agent-evaluation",
+    "cost-model"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "Apache-2.0"
+}

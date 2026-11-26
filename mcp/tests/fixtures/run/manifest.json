@@ -1,0 +1,24 @@
+{
+  "run_date": "2026-11-20",
+  "env": "osworld-verified",
+  "env_version": "desktop_env-1.0.3",
+  "commit": "fixture-0001",
+  "seed": 42,
+  "temperature": 0,
+  "models": {
+    "a0": "cheap-vlm",
+    "planner": "planner-vlm",
+    "fast": "fast-vlm"
+  },
+  "prices": {
+    "date": "2026-11-20",
+    "a0_in": 0.8,
+    "a0_out": 4,
+    "planner_in": 3,
+    "planner_out": 15,
+    "fast_in": 0.1,
+    "fast_out": 0.4
+  },
+  "retry": "max_retries=1",
+  "max_steps": 50
+}

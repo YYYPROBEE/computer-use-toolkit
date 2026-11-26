@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "computer-use": {
+      "command": "node",
+      "args": ["/absolute/path/to/mcp/server.js"],
+      "cwd": "/absolute/path/to/mcp",
+      "env": {
+        "CUA_FAST_ENV_FILE": "/absolute/path/to/.env",
+        "CUA_FAST_BASE_URL": "https://your-gateway.example/v1/chat/completions",
+        "CUA_FAST_MODEL": "your-model",
+        "CUA_FAST_IMAGE_ROOTS": "/absolute/path/to/screenshots"
+      }
+    }
+  }
+}
